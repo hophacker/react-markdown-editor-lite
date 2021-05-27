@@ -11,7 +11,7 @@ export default class BlockQuote extends PluginComponent {
       <span
         className="button button-type-quote"
         title={i18n.get('btnQuote')}
-        onClick={() => this.editor.insertMarkdown('quote')}
+        onMouseDown={() => this.editor.insertMarkdown('quote')}
       >
         <Icon type="quote" />
       </span>

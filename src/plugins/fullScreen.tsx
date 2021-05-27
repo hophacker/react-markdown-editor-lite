@@ -45,7 +45,7 @@ export default class FullScreen extends PluginComponent<FullScreenState> {
         <span
           className="button button-type-fullscreen"
           title={i18n.get(enable ? 'btnExitFullScreen' : 'btnFullScreen')}
-          onClick={this.handleClick}
+          onMouseDown={this.handleClick}
         >
           <Icon type={enable ? 'fullscreen-exit' : 'fullscreen'} />
         </span>

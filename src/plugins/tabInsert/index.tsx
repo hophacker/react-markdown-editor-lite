@@ -82,7 +82,7 @@ export default class TabInsert extends PluginComponent<TabInsertState> {
       <span
         className="button button-type-header"
         title={i18n.get('selectTabMap')}
-        onClick={this.show}
+        onMouseDown={this.show}
         onMouseLeave={this.hide}
       >
         <Icon type="tab" />

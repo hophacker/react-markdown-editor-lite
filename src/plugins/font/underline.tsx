@@ -35,7 +35,7 @@ export default class FontUnderline extends PluginComponent {
       <span
         className="button button-type-underline"
         title={i18n.get('btnUnderline')}
-        onClick={() => this.editor.insertMarkdown('underline')}
+        onMouseDown={() => this.editor.insertMarkdown('underline')}
       >
         <Icon type="underline" />
       </span>

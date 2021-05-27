@@ -19,8 +19,6 @@ node_modules/
 .npm
 
 # dist
-lib/
-lib/*
 dist/
 dist/*
 

@@ -36,7 +36,7 @@ export default class FontStrikethrough extends PluginComponent {
       <span
         className="button button-type-strikethrough"
         title={i18n.get('btnStrikethrough')}
-        onClick={() => this.editor.insertMarkdown('strikethrough')}
+        onMouseDown={() => this.editor.insertMarkdown('strikethrough')}
       >
         <Icon type="strikethrough" />
       </span>

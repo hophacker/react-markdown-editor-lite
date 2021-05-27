@@ -106,14 +106,14 @@ export default class Logger extends PluginComponent {
         <span
           className={`button button-type-undo ${hasUndo ? '' : 'disabled'}`}
           title={i18n.get('btnUndo')}
-          onClick={this.handleUndo}
+          onMouseDown={this.handleUndo}
         >
           <Icon type="undo" />
         </span>
         <span
           className={`button button-type-redo ${hasRedo ? '' : 'disabled'}`}
           title={i18n.get('btnRedo')}
-          onClick={this.handleRedo}
+          onMouseDown={this.handleRedo}
         >
           <Icon type="redo" />
         </span>

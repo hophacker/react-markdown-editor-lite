@@ -29,7 +29,7 @@ class TabMapList extends React.Component<TabMapListProps, any> {
                 active: value === it,
               })}
             >
-              <div onClick={this.handleSelectMapValue.bind(this, it)}>
+              <div onMouseDown={this.handleSelectMapValue.bind(this, it)}>
                 {it === 1 ? i18n.get('tab') : `${it} ${i18n.get('spaces')}`}
               </div>
             </li>

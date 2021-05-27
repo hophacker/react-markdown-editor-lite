@@ -36,7 +36,7 @@ export default class ListUnordered extends PluginComponent {
       <span
         className="button button-type-unordered"
         title={i18n.get('btnUnordered')}
-        onClick={() => this.editor.insertMarkdown('unordered')}
+        onMouseDown={() => this.editor.insertMarkdown('unordered')}
       >
         <Icon type="list-unordered" />
       </span>

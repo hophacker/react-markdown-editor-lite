@@ -36,7 +36,7 @@ export default class FontItalic extends PluginComponent {
       <span
         className="button button-type-italic"
         title={i18n.get('btnItalic')}
-        onClick={() => this.editor.insertMarkdown('italic')}
+        onMouseDown={() => this.editor.insertMarkdown('italic')}
       >
         <Icon type="italic" />
       </span>

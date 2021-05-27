@@ -11,7 +11,7 @@ export default class BlockWrap extends PluginComponent {
       <span
         className="button button-type-wrap"
         title={i18n.get('btnLineBreak')}
-        onClick={() => this.editor.insertMarkdown('hr')}
+        onMouseDown={() => this.editor.insertMarkdown('hr')}
       >
         <Icon type="wrap" />
       </span>

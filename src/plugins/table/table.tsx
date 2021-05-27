@@ -103,7 +103,7 @@ class TableList extends React.Component<TableListProps, TableListState> {
                 key={`${i}-${j}`}
                 style={this.calcItemStyle(i, j)}
                 onMouseOver={this.handleHover.bind(this, i, j)}
-                onClick={this.handleSetTable.bind(this, i, j)}
+                onMouseDown={this.handleSetTable.bind(this, i, j)}
               />
             );
           });

@@ -11,7 +11,7 @@ export default class BlockCodeBlock extends PluginComponent {
       <span
         className="button button-type-code-block"
         title={i18n.get('btnCode')}
-        onClick={() => this.editor.insertMarkdown('code')}
+        onMouseDown={() => this.editor.insertMarkdown('code')}
       >
         <Icon type="code-block" />
       </span>

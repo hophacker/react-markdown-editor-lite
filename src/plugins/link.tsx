@@ -36,7 +36,7 @@ export default class Link extends PluginComponent {
       <span
         className="button button-type-link"
         title={i18n.get('btnLink')}
-        onClick={() => this.editor.insertMarkdown('link')}
+        onMouseDown={() => this.editor.insertMarkdown('link')}
       >
         <Icon type="link" />
       </span>

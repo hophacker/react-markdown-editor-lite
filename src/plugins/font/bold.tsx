@@ -36,7 +36,7 @@ export default class FontBold extends PluginComponent {
       <span
         className="button button-type-bold"
         title={i18n.get('btnBold')}
-        onClick={() => this.editor.insertMarkdown('bold')}
+        onMouseDown={() => this.editor.insertMarkdown('bold')}
       >
         <Icon type="bold" />
       </span>

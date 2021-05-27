@@ -144,7 +144,7 @@ export default class ModeToggle extends PluginComponent<ModeToggleState> {
         <span
           className="button button-type-mode"
           title={i18n.get('btnMode' + display.title)}
-          onClick={this.handleClick}
+          onMouseDown={this.handleClick}
         >
           <Icon type={display.icon} />
         </span>
